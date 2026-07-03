@@ -31,13 +31,17 @@
 
 **Gap closure:** Gemfile.lock chicken-and-egg; Docker-before-Gemfile ordering; Ruby drift
 
+**Branch (caveman):** `master` = live Pages site. Migration branch = sandbox. `git checkout -b upgrade/al-folio-v1` off fresh `master`. Merge only after Phase 04 GHA green.
+
+**No random scripts:** Use `docker compose`, `bundle exec al-folio upgrade *`, upstream `bin/entry_point.sh`, GHA deploy. Delete stale `bin/deploy`, `bin/cibuild`, `bin/docker_*.sh` — don't replace with new helpers.
+
 **Tasks:**
-1. Branch `upgrade/al-folio-v1`
-2. Replace `Gemfile` from upstream al-folio v1 (pin `al_folio_*` versions)
-3. Bootstrap lock: `docker run --rm -v "$PWD:/srv/jekyll" -w /srv/jekyll ruby:3.2-slim bash -c "gem install bundler && bundle lock"`
-4. Replace `Dockerfile` (`ruby:3.2-slim`), `docker-compose.yml`, `bin/entry_point.sh`
-5. Add `.ruby-version` (3.2.2)
-6. Archive or delete `docker-local.yml`
+1. Branch `upgrade/al-folio-v1` (see plan **Workflow rules**)
+2. Delete stale `bin/deploy`, `bin/cibuild`, `bin/docker_*.sh`; archive `docker-local.yml`
+3. Replace `Gemfile` from upstream al-folio v1 (pin `al_folio_*` versions)
+4. Bootstrap lock: `docker run --rm -v "$PWD:/srv/jekyll" -w /srv/jekyll ruby:3.2-slim bash -c "gem install bundler && bundle lock"`
+5. Replace `Dockerfile` (`ruby:3.2-slim`), `docker-compose.yml`, `bin/entry_point.sh` (upstream only)
+6. Add `.ruby-version` (3.2.2)
 7. `docker compose build && docker compose up` — verify :8080
 
 **Directory:** `.planning/phases/01-v1-toolchain-bootstrap/`

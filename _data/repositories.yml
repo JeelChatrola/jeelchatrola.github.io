@@ -1,7 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - JeelChatrola
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
+  - JeelChatrola/autonomous_exploration
+  - JeelChatrola/AutoCalibration
+  - JeelChatrola/focaslab_outdoor_robot
+  - JeelChatrola/RL_Final_Project

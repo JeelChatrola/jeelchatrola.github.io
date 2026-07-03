@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-06-1 15:59:00-0400
+date: 2025-08-01 07:59:00
 inline: true
 related_posts: false
 ---
 
-Started working as Research Assistant at Indian Insitute of Science, Bangalore (IISC).
+Started as **Software Engineer I — Simulation** at [Torc Robotics](https://torc.ai/) in Ann Arbor, MI.

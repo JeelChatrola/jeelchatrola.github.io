@@ -3,75 +3,69 @@
   contents:
     - name: Full Name
       value: Jeel Chatrola
-    - name: Date of Birth
-      value: 3rd November 2000
+    - name: Location
+      value: Ann Arbor, MI, USA
     - name: Languages
       value: English, Gujarati, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Science - Robotics Engineering
-      institution: Worcester Polytechnic Institute, Worcester, US
-      year: Aug 2023- Aug 2025
+    - title: Master of Science — Robotics Engineering
+      institution: Worcester Polytechnic Institute, Worcester, MA
+      year: Aug 2023 — May 2025
       description:
-        - Courses- Motion Planning, Robot Control and Deep Learning.
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-    - title: Bachelor of Technology in Electrical Engineering
-      institution: Pandit Deendayal Energy University, Gujarat,India
-      year: Aug 2018 - May 2022
+        - "GPA: 4.0/4.0"
+        - "Coursework: Computer Vision, Deep Learning, Reinforcement Learning, Motion Planning, Robot Control"
+    - title: Bachelor of Technology — Electrical Engineering
+      institution: Pandit Deendayal Energy University, Gujarat, India
+      year: Aug 2018 — May 2022
       description:
-        - Courses- Signal Processing, Analog and Digital Electronics, Control Theory and Embedded Systems.
+        - "Coursework: Signal Processing, Analog and Digital Electronics, Control Theory, Embedded Systems"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Assistant 
-      institution: Indian Institute of Science, Bangalore
-      year: May 2022 - Aug 2023
+    - title: Software Engineer I — Simulation
+      institution: Torc Robotics, Ann Arbor, MI
+      year: Aug 2025 — Present
       description:
-        - Worked on developing novel safety critical planning algorithms for robot navigation.
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-    - title: Research Intern
-      institution: Indian Institute of Science, Bangalore
-      year: Jan 2022 - May 2022
+        - Scalable simulation stack with Ray for closed-loop autonomous driving testing.
+        - Python workflows for RL validation across 2,000+ simulation scenarios.
+    - title: Robotics Software Engineer Intern
+      institution: Magna Services of America — Advanced Manufacturing Innovation, Troy, MI
+      year: Aug 2024 — Jul 2025
       description:
-        # - Description 1.
+        - Isaac Sim synthetic data pipeline for automotive grasp perception (500M+ labels).
+        - PointNet++ grasp detection and ROS2 perception/grasping modules for Jetson deployment.
+    - title: Robotics Research Associate
+      institution: Robert Bosch Centre for Cyber-Physical Systems, IISc Bangalore
+      year: Jan 2022 — Jun 2023
+      description:
+        - ROS2 autonomous robotics framework with YOLOv7/DeepLabv3+ perception on Jetson TX2.
+        - Multi-sensor fusion (LIDAR, stereo cameras) for ground robot navigation.
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - Python, C++, C, MATLAB
+    - title: Frameworks & Tools
+      items:
+        - PyTorch, TensorFlow, OpenCV, ROS/ROS2, MoveIt, OMPL, Ray, Docker, Isaac Sim, Gazebo, MuJoCo
+    - title: Hardware
+      items:
+        - NVIDIA Jetson, LIDAR, stereo cameras, Turtlebot3, UR10
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Motion Planning and Control.
-      items: 
-        - Safety Critical Motion Planning.
-        - Hybrid Control using Formal Methods.
-    - title: Computer Vision.
+    - title: Motion Planning and Control
       items:
-        - Vision based control.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Playing eSports Games, Reading, etc.
+        - Safety-critical motion planning
+        - Hybrid control using formal methods
+    - title: Simulation & Computer Vision
+      items:
+        - Autonomous driving simulation
+        - Vision-based control and perception
