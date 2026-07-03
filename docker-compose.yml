@@ -3,7 +3,7 @@ services:
     build: .
     command: /srv/jekyll/bin/entry_point.sh
     ports:
-      - 8080:8080
+      - 8081:8080
       - 35729:35729
     volumes:
       - .:/srv/jekyll

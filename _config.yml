@@ -233,7 +233,6 @@ exclude:
   - docker-compose.yaml
   - Dockerfile
   - .gitignore
-  - .planning
   - docs
 keep_files:
   - CNAME
