@@ -33,7 +33,7 @@
         - Scalable simulation stack with Ray for closed-loop autonomous driving testing.
         - Python workflows for RL validation across 2,000+ simulation scenarios.
     - title: Robotics Software Engineer Intern
-      institution: Magna Services of America — Advanced Manufacturing Innovation, Troy, MI
+      institution: <a href="https://www.magna.com/">Magna International</a> — Advanced Manufacturing Innovation, Troy, MI
       year: Aug 2024 — Jul 2025
       description:
         - Isaac Sim synthetic data pipeline for automotive grasp perception (500M+ labels).
@@ -61,11 +61,11 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Motion Planning and Control
+    - title: Simulation & Reinforcement Learning
       items:
-        - Safety-critical motion planning
-        - Hybrid control using formal methods
-    - title: Simulation & Computer Vision
+        - Scalable simulation stacks and closed-loop testing
+        - RL validation frameworks for autonomous systems
+    - title: Perception & ML
       items:
-        - Autonomous driving simulation
-        - Vision-based control and perception
+        - Synthetic data pipelines (Isaac Sim)
+        - 3D perception and computer vision on embedded hardware

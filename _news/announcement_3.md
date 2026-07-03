@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Robotics Software Engineer Intern at **Magna Advanced Manufacturing Innovation** (Isaac Sim, grasp detection).
+Robotics Software Engineer Intern at **[Magna International](https://www.magna.com/)** Advanced Manufacturing Innovation (Isaac Sim, grasp detection).

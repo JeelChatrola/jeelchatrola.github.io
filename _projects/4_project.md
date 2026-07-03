@@ -10,4 +10,4 @@ giscus_comments: true
 
 Implemented eight path-planning algorithms from scratch in Python and C++, with comparisons using OMPL for motion planning coursework at WPI.
 
-**Link:** [GitHub](https://github.com/JeelChatrola/)
+**Link:** [GitHub](https://github.com/JeelChatrola/RBE550_Motion_Planning)

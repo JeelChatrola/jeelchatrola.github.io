@@ -2,7 +2,7 @@
 layout: page
 title: Autonomous Exploration with Safety Guarantees
 description: Safety-focused autonomous exploration for ground robots (IROS 2023).
-img: assets/img/IROS_video4.gif
+img: assets/img/publication_preview/IROS_video4.gif
 importance: 1
 category: work
 giscus_comments: true
