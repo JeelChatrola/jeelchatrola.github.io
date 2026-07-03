@@ -1,14 +1,20 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-description: All my publications in chronological order.
+title: publications
+description: Peer-reviewed publications in robotics, simulation, and machine learning.
 nav: true
-nav_order: 1
+nav_order: 2
 ---
+
 <!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+{% bibliography %}
 
 </div>

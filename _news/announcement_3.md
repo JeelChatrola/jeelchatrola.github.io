@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-05-15 15:59:00-0400
+date: 2024-08-01 07:59:00
 inline: true
 related_posts: false
 ---
 
-Graduated with a B.Tech in Electrical Engineering from Pandit Deendayal Energy University, India (PDEU).
+Robotics Software Engineer Intern at **[Magna International](https://www.magna.com/)** Advanced Manufacturing Innovation (Isaac Sim, grasp detection).
