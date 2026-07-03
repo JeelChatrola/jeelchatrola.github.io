@@ -6,4 +6,5 @@ _site
 .DS_store
 .tweet-cache
 vendor
+al-folio-upgrade-report.md
 

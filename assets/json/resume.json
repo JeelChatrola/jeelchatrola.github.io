@@ -1,77 +1,87 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Jeel Chatrola",
+    "label": "Robotics Software Engineer",
+    "email": "jeelchatrola046@gmail.com",
+    "phone": "+1 (774) 519-9378",
+    "url": "https://jeelchatrola.github.io/",
+    "summary": "Software Engineer in simulation at Torc Robotics. M.S. Robotics Engineering from WPI. Background in motion planning, perception, and formal methods for autonomous systems.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Ann Arbor",
+      "region": "Michigan",
+      "countryCode": "US"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "JeelChatrola",
+        "url": "https://github.com/JeelChatrola"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jeel-chatrola",
+        "url": "https://www.linkedin.com/in/jeel-chatrola/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
+      "name": "Torc Robotics",
+      "position": "Software Engineer I — Simulation",
+      "location": "Ann Arbor, MI",
+      "startDate": "2025-08-01",
+      "summary": "Scalable simulation stack with Ray for autonomous driving; RL validation workflows across 2,000+ scenarios."
     },
     {
-      "language": "English",
-      "fluency": "Fluent"
+      "name": "Magna Services of America",
+      "position": "Robotics Software Engineer Intern",
+      "location": "Troy, MI",
+      "startDate": "2024-08-01",
+      "endDate": "2025-07-01",
+      "summary": "Isaac Sim synthetic data pipeline and PointNet++ grasp detection for industrial automation."
+    },
+    {
+      "name": "IISc Bangalore — FOCAS Lab",
+      "position": "Robotics Research Associate",
+      "location": "Bangalore, India",
+      "startDate": "2022-01-01",
+      "endDate": "2023-06-01",
+      "summary": "ROS2 perception and navigation; safety-critical motion planning research."
     }
   ],
+  "education": [
+    {
+      "institution": "Worcester Polytechnic Institute",
+      "area": "Robotics Engineering",
+      "studyType": "M.S.",
+      "startDate": "2023-08-01",
+      "endDate": "2025-05-01",
+      "score": "4.0/4.0"
+    },
+    {
+      "institution": "Pandit Deendayal Energy University",
+      "area": "Electrical Engineering",
+      "studyType": "B.Tech",
+      "startDate": "2018-08-01",
+      "endDate": "2022-05-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["Python", "C++", "ROS/ROS2", "MATLAB"]
+    },
+    {
+      "name": "ML & Simulation",
+      "keywords": ["PyTorch", "OpenCV", "Isaac Sim", "Gazebo", "MuJoCo", "Ray"]
+    }
+  ],
+  "publications": [],
+  "projects": [],
+  "volunteer": [],
+  "awards": [],
+  "certificates": [],
+  "languages": [],
   "interests": [],
-  "references": [],
-  "projects": []
+  "references": []
 }

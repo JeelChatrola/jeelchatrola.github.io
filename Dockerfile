@@ -44,6 +44,6 @@ RUN gem install --no-document jekyll bundler && \
 
 EXPOSE 8080
 
-COPY bin/entry_point.sh /tmp/entry_point.sh
+COPY bin/entry_point.sh /srv/jekyll/bin/entry_point.sh
 
-CMD ["/tmp/entry_point.sh"]
+CMD ["/srv/jekyll/bin/entry_point.sh"]
