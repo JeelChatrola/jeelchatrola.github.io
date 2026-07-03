@@ -11,6 +11,19 @@ horizontal: false
 
 <div class="projects">
 <style>
+  .projects .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .projects .project-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .projects .project-grid.horizontal {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
   .projects .card-img-top,
   .projects .card figure img {
     width: 100%;
@@ -25,34 +38,18 @@ horizontal: false
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  {% if page.horizontal %}
-  <div class="row row-cols-1 row-cols-md-2">
+  <div class="project-grid{% if page.horizontal %} horizontal{% endif %}">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
   {% endfor %}
 {% else %}
   {% assign sorted_projects = site.projects | sort: "importance" %}
-  {% if page.horizontal %}
-  <div class="row row-cols-1 row-cols-md-2">
+  <div class="project-grid{% if page.horizontal %} horizontal{% endif %}">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
 {% endif %}
 </div>
